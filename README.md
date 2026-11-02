@@ -1,2 +1,19 @@
-# java-assigment-2
-A console-based Java Library Management System where you can borrow and return books and magazines, calculate late fees, and save the data to a file, built to demonstrate inheritance, interfaces, collections, multithreading, exception handling and NIO.
+# Library Management System (Java)
+
+A simple console project that shows OOP and Java concepts.
+
+| Concept | Where used |
+|---|---|
+| Inheritance | `Book`, `Magazine` extend `Item` |
+| Method overriding | `lateFee()`, `type()` in `Book` / `Magazine` |
+| Interface | `Borrowable` (implemented by `Item`) |
+| Collections | `LinkedHashMap`, `ArrayList` in `Library` |
+| Multithreading | `AutoSaver` thread, two-thread demo, `synchronized` in `Item` |
+| Exception handling | `ItemNotAvailableException`, `NumberFormatException`, `IOException` |
+| Java NIO | `Path`, `Paths`, `Files` in `Library` and `Main` |
+
+## Run
+```
+javac *.java
+java Main
+```

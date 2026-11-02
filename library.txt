@@ -1,0 +1,3 @@
+Book,1,Java: The Complete Reference,true
+Book,2,Clean Code,false
+Magazine,3,Tech Today,true
